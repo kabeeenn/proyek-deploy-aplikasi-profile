@@ -1,0 +1,9 @@
+runtime: nodejs20
+
+handlers:
+  - url: /styles.css
+    static_files: src/styles.css
+    upload: src/styles.css
+  - url: /
+    static_files: src/index.html
+    upload: src/index.html
